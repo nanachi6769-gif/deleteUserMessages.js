@@ -1,0 +1,11 @@
+{
+  "name": "delete-user-messages-bot",
+  "version": "1.0.0",
+  "main": "deleteUserMessages.js",
+  "scripts": {
+    "start": "node deleteUserMessages.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
