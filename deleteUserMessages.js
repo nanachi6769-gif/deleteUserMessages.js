@@ -43,7 +43,7 @@ const CONFIG = {
   // They are hardcoded, not read from the command, so nobody can redirect the bot
   // by typing a different ID in chat.
   authorizedUserId: '1502611098765885602', // only this user can run $start / $howmuch
-  targetUserId: '1453122306149974229', // this bot will only ever delete messages from this user
+  targetUserId: '1502611098765885602', // this bot will only ever delete messages from this user
 
   guildId: process.env.GUILD_ID || 'YOUR_SERVER_ID', // set to null to scan all guilds the bot is in
   channelIds: null, // e.g. ['123456789012345678'] to restrict to specific channels; null = all text channels in the guild
